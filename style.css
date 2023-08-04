@@ -58,14 +58,15 @@ body {
 }
 
 #expression {
-    font-size: 40px;
-    margin-right: 12px;
+    height: 40%;
+    font-size: 36px;
+    margin: 20px;
 }
 
 #result {
+    margin: 20px;
+    height: 60%;
     font-size: 60px;
-    margin-top: 80px;
-    margin-right: 20px;
 }
 
 .row {
