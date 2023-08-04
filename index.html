@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.svg" />
+</head>
+<body>
+    <button type="button" id="toggle"><img src="img/sun.svg" alt="sun icon" class="icon"></button>
+    <div class="calculator">
+        <div class="display">
+            <div id="expression"></div>
+            <div id="result"></div>
+        </div>
+        <div class="row">
+            <button type="button" class="num button" id="1">1</button>
+            <button type="button" class="num button" id="2">2</button>
+            <button type="button" class="num button" id="3">3</button>
+            <button type="button" class="sign button" id="plus">+</button>
+        </div>
+        <div class="row">
+            <button type="button" class="num button" id="4">4</button>
+            <button type="button" class="num button" id="5">5</button>
+            <button type="button" class="num button" id="6">6</button>
+            <button type="button" class="sign button" id="minus">-</button>
+        </div>
+        <div class="row">
+            <button type="button" class="num button" id="7">7</button>
+            <button type="button" class="num button" id="8">8</button>
+            <button type="button" class="num button" id="9">9</button>
+            <button type="button" class="sign button" id="multiply">x</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button"> </button>
+            <button type="button" class="num button" id="0">0</button>
+            <button type="button" class="button"> </button>
+            <button type="button" class="sign button" id="divide">&divide</button>
+        </div>
+        <div class="row">
+            <button type="button" class="button" id="clear">C</button>
+            <button type="button" class="button" id="delete">DEL</button>
+            <button type="button" class="button" id="equals">=</button>
+        </div>
+    </div>
+</body>
+</html>
